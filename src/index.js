@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-// import App from './App';
-import Storage from './Storage';
+import './styles/index.css';
+// import LocalUpload from './components/LocalUpload';
+import FirebaseUpload from './components/FirebaseUpload';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Storage />
+    <FirebaseUpload />
   </React.StrictMode>,
   document.getElementById('root')
 );
