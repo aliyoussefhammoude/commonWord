@@ -72,7 +72,7 @@ function LocalUpload() {
         <div className='containerArea'>
           <form onSubmit={handleSubmit}>
               <input className='chooseFile' type="file" onChange={upload}/>
-              <h2>Most used word is: {mostUsedWord.body}</h2>
+              <h2>Most used word is: <span className='spanWord'>{mostUsedWord.body}</span></h2>
                   <textarea className='displayText textinput' cols="100" rows="30" 
                           placeholder="text will appear here" value={bodyState.body}>
                   </textarea>

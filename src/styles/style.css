@@ -33,8 +33,6 @@
     margin-top: 4%;
 }
 
-
-
 button {
 	width: 150px;
 	height: 50px;
@@ -59,6 +57,10 @@ button:focus {
 	outline: none;
 }
 
+.spanWord {
+    color: white;
+    font-size: 190%;
+}
 
 @media screen and (max-width: 768px) {
     .container {
