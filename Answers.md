@@ -43,6 +43,7 @@
             
             That was really strange and if I had more time I would really dig into this to actually solve this but for the time we had here I really couldnt solve this particular problem.
 
+            Another thing I really would like to have more time on is the design. I love to take my time when we are talking about the design because it really have to me catchy to the customer. For me the design will never be perfect. I will always have something to add to make it look better.
 
 
 4. What did you think of this recruitment test?
