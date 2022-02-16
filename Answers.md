@@ -33,9 +33,9 @@
 
             I had a problem that took time but I solved it. The problem was:
                 for example:
-                    if you take a text file which has exactly the same amount of the word "the" as the word "but", the word tha appears first will display in between the foo-bar.
+                    if you take a text file which has exactly the same amount of the word "the" as the word "but", the word that appears first will display in between the foo-bar.
 
-            My solution was to throw an Alert error if that happened. If I had more time I would make the user go to the "upload-mode" again with a text that says "choose again, you cant choose a file that has the same amount of words."
+            My solution was to throw an Alert error if that happened. If I had more time I would make the user much more comfortable with the error handling. 
 
             Another problem that I had but that I could solve and I really wanted to solve, the problem was:
                 for example:
@@ -51,4 +51,11 @@
     answer:
             I really enjoyed it. This test was really a challenge because I have never seen anything like it. But it was fun. From the beginning I was like: "this sounds easy". But when I took the time and started I was like "hmm this is actually not so easy". 
 
-            But I really enjoyed it and I'm looking forward to do more in the future!
+            But I had pretty fun with this test and I'm looking forward to do more in the future!
+
+
+IMPORTANT!
+IN THE FILE Index.js THERE ARE 2 COMPONENTS TO USE, ONE WITH LOCAL AND ONE CONNECTED WITH FIREBASE!
+CHOOSE ONE AT A TIME, DEPENDS ON WHICH ONE YOU WANNA LOOK AT AND TRY.
+
+// Ali Hammoudé

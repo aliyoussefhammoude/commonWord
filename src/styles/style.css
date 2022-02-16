@@ -1,35 +1,25 @@
-.container {
-    max-width: 820px;
-    margin: 0px auto;
-    margin-top: 70px;
-}
-.containerArea {
-    float: left;
-    width: 100%;
-    height: auto;
-}
-
-.containerArea-text-area {
-    float: left;
-    width: 100%;
-    height: auto;
-}
-
 .textinput {
+    color: black;
     float: left;
     width: 100%;
-    min-height: 75px;
+    height: 50%;
     outline: none;
     resize: none;
     border: 1px solid grey;
 }
 
-.chooseFile {
-    margin-bottom: 4%;
+.textinputLocal {
+    color: black;
+    float: left;
+    width: 100%;
+    height: 80%;
+    outline: none;
+    resize: none;
+    border: 1px solid grey;
 }
 
 .uploadBtn {
-    margin-bottom: 4%;
+    margin-bottom: 1%;
     margin-top: 4%;
 }
 
@@ -37,7 +27,7 @@ button {
 	width: 150px;
 	height: 50px;
 	cursor: pointer;
-	font-size: 20px;
+	font-size: 15px;
 	font-weight: bold;
 	color: black;
 	background: white;
@@ -62,8 +52,27 @@ button:focus {
     font-size: 190%;
 }
 
+
+
 @media screen and (max-width: 768px) {
-    .container {
-      margin: 5%;
+    .uploadBtn {
+        margin-bottom: 8%;
+        margin-top: 10%;
+    }
+    .textinput {
+        float: left;
+        width: 100%;
+        height: 65%;
+        outline: none;
+        resize: none;
+        border: 1px solid grey;
+    }
+    .textinputLocal {
+        float: left;
+        width: 100%;
+        height: 85%;
+        outline: none;
+        resize: none;
+        border: 1px solid grey;
     }
 }

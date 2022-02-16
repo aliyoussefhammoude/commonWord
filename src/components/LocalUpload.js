@@ -56,8 +56,8 @@ function LocalUpload() {
         const mostCommonWord = sortable[0][0];
         console.log(sortable)
         
-        //here we check if we have the same amount of word then throw an Error alert
-        if(sortable[0][1] == sortable[1][1]) return alert("Can't solve it, same amount of words! Try again")
+         //check if there is equal amount of words, then let the user try again
+         if(checkForDuplicates(sortable[0][0])) return alert("Can't solve it, found equal amount of words! Try again")
 
         //when we have the most used word we display it abode the textArea to highlight it
         setmostUsedWord({body: mostCommonWord});
@@ -65,20 +65,38 @@ function LocalUpload() {
         return mostCommonWord;
    };
 
+
+   function checkForDuplicates(array) {
+    let valuesAlreadySeen = []
+  
+    for (let i = 0; i < array.length; i++) {
+      let value = array[i]
+      if (valuesAlreadySeen.indexOf(value) !== -1) {
+        return true
+      }
+      valuesAlreadySeen.push(value)
+    }
+    return false
+  }
+
    const handleSubmit = (e) => e.preventDefault()
   
+    
+
     return (
-      <div className='container'> 
-        <div className='containerArea'>
-          <form onSubmit={handleSubmit}>
+      <>
+        <div class="background">
+          <div class="shape"></div>
+          <div class="shape"></div>
+        </div>
+        <form onSubmit={handleSubmit}>
               <input className='chooseFile' type="file" onChange={upload}/>
               <h2>Most used word is: <span className='spanWord'>{mostUsedWord.body}</span></h2>
-                  <textarea className='displayText textinput' cols="100" rows="30" 
+                  <textarea className='displayText textinput textinputLocal' cols="100" rows="30" 
                           placeholder="text will appear here" value={bodyState.body}>
                   </textarea>
           </form>
-        </div>
-      </div>
+      </>
     );
   
 }
