@@ -8,8 +8,9 @@
 2. Explain why you chose the code structure(s) you used in your solution.
 
     answer:
+
             I used React and developed the frontend and tried a bit in the backend but through Firebase Storage, not .NET and SQL, because this is what we learned in school and I so love it, it is so compelling to me.
-            
+
             My biggest dream is to become a fullstack developer. Therefore, from the beginning of this test I tried to use .NET from this tutorial:
             https://www.youtube.com/watch?v=ON-Z1iD6Y-c
 
@@ -25,6 +26,7 @@
    did not spend much time on the coding test - use this as an opportunity to explain what your solution is missing.
 
     answer:
+
             I used React as a library and Firebase as a database storage. On this test I have done a LocalUpload component and a FirebaseUpload component. 
 
             The LocalUpload component you can upload a file locally and display it as the test says.
@@ -49,6 +51,7 @@
 4. What did you think of this recruitment test?
 
     answer:
+    
             I really enjoyed it. This test was really a challenge because I have never seen anything like it. But it was fun. From the beginning I was like: "this sounds easy". But when I took the time and started I was like "hmm this is actually not so easy". 
 
             But I had pretty fun with this test and I'm looking forward to do more in the future!
