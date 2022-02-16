@@ -89,9 +89,9 @@ function FirebaseUpload() {
         });
 
         const mostCommonWord = sortable[0][0];
-
-        //here we check if we have the same amount of word then throw an Error alert
-        if(sortable[0][1] == sortable[1][1]) return alert("Can't solve it, same amount of words! Try again")
+        
+        //check if there is equal amount of words, then let the user try again
+        if(checkForDuplicates(sortable[0][0])) return alert("Can't solve it, found equal amount of words! Try again")
 
         //when we have the most used word we display it abode the textArea to highlight it
         setmostUsedWord({body: mostCommonWord});
@@ -99,6 +99,19 @@ function FirebaseUpload() {
         return mostCommonWord;
    };
 
+
+   function checkForDuplicates(array) {
+    let valuesAlreadySeen = []
+  
+    for (let i = 0; i < array.length; i++) {
+      let value = array[i]
+      if (valuesAlreadySeen.indexOf(value) !== -1) {
+        return true
+      }
+      valuesAlreadySeen.push(value)
+    }
+    return false
+  }
 
   
     return (
