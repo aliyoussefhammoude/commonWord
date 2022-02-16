@@ -1,6 +1,7 @@
 1. How much time did you end up spending on this coding test?
 
     answer:
+    
             this test took me8 hours
 
 
@@ -51,7 +52,7 @@
 4. What did you think of this recruitment test?
 
     answer:
-    
+
             I really enjoyed it. This test was really a challenge because I have never seen anything like it. But it was fun. From the beginning I was like: "this sounds easy". But when I took the time and started I was like "hmm this is actually not so easy". 
 
             But I had pretty fun with this test and I'm looking forward to do more in the future!
